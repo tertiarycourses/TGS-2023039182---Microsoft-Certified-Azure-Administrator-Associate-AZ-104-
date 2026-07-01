@@ -1,0 +1,22 @@
+# Secrets / credentials — never commit
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+id_rsa
+id_ed25519
+
+# WSQ assessment materials (confidential — never pushed)
+/assessment/
+/assessment\ /
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.playwright-mcp/
