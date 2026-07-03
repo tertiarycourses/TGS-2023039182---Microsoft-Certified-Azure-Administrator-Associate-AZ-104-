@@ -13,6 +13,13 @@ id_ed25519
 # WSQ assessment materials (confidential — never pushed)
 /assessment/
 /assessment\ /
+/assessemnt/
+/references/
+courseware/build/build_assessment_az104.py
+
+# Python build cruft
+__pycache__/
+*.pyc
 
 # OS / editor cruft
 .DS_Store
